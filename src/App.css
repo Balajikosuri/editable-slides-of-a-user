@@ -1,0 +1,33 @@
+.app-container {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+}
+
+.left-sidebar {
+  width: min(40%, 400px);
+  height: 100%;
+  overflow: auto;
+}
+
+.body {
+  width: 70%;
+  border: 2px solid gray;
+  border-radius: 10px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.active-tab {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #6de3d7;
+}
+
+.my-label {
+  font-weight: bold;
+}
